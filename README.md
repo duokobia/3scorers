@@ -45,13 +45,13 @@ That is it! The application should run on your local server on http://localhost:
 
 # How to use the web application
 
-The web application is intuitive and easy to navigate. From the landing page, click on any of the tabs in the navigation bar to go to their respective pages. This app is authenticated and login access is required for private routes.
+The web application is intuitive and easy to navigate. From the landing page, click on any of the tabs in the navigation bar to go to their respective pages. This app authenticates users. Hence a login access is required for private routes.
 
 You can switch to any of the public routes desired at anytime using the navigation tab.
 
 # Credits
 
-This web application was solely implemented by me as a frontend developer assessment by XXXX XXX XXXXX. Background image was gotten from upslash website and attribution was done in the app's html and css page it was used. I drew inspiration from a couple of resources which includes:
+This web application was solely implemented by me as a frontend developer assessment administered by XXXX XXX XXXXX. Product specification was given and I sourced the images used from upslash website. Attribution was done in the app's html and css pages these images were used. I drew inspiration from a couple of resources which includes:
 
 websites:
 
