@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.app-container {
+  overflow-x: hidden;
+}
+/* Header */
+.app-header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 150px;
+  border: 2px solid greenyellow;
+}
+.app-header-sub {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 60px;
+  height: 60px;
+  border: 2px solid rgb(47, 78, 255);
+}
+.app-header-sub nav ul {
+  display: flex;
+  flex-direction: row;
+}
+.app-header-sub nav ul li {
+  margin: 0 20px;
+  list-style-type: none;
+}
+.app-header-sub-logo {
+  display: flex;
+  flex-direction: row;
+}
+.app-header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 60px;
+  height: 90px;
+  border: 2px solid greenyellow;
+}
+.app-header-main-logo {
+  font-weight: 700;
+}
+.app-header-main nav ul {
+  display: flex;
+  flex-direction: row;
+}
+.app-header-main nav ul li {
+  margin: 0 20px;
+  list-style-type: none;
+}
+/* Hero */
+.app-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: calc(100vh - 150px);
+  border: 2px solid grey;
+}
+.app-hero-banner {
+  color: black;
+  font-size: 50px;
+}
+/* Footer */
+.app-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 250px;
+  border: 2px solid greenyellow;
+  margin: 0 60px;
+}
+.app-footer-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-footer-lists-one {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-footer-lists-one nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app-footer-lists-one nav ul {
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.app-footer-lists-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-footer-lists-two nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app-footer-lists-two nav ul {
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.app-footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
