@@ -3,13 +3,11 @@
 <div align="center">Auto formatted with Prettier, linted with ESlint, tested with Jest/Enzyme and deployed with Vercel.🎗</div>
 
 <h3 align="center">
-  <a href="3scorers-2jti7y4rc-duokobia.vercel.app">Visit the live app</a> |
+  <a href="3scorers-2jti7y4rc-duokobia.vercel.app/">Visit the live app</a> |
   <a href="https://github.com/duokobia/3scorers/tree/main">View client</a> |
 </h3>
 
 ![App screenshot](3scorers-2jti7y4rc-duokobia.vercel.app)
-
-# 3scorers
 
 3Scorers is a responsive reactJS web application that consumes private endpoints. It is designed primarily to accept inputs from customers and displays results fetched from different APIs.
 
